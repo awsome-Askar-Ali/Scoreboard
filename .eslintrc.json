@@ -1,0 +1,13 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:import/errors",
+      "plugin:react/recommended"
+    ],
+    "plugins": ["react", "import"],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2015
+  },
+  "import/parser": "babel-eslint"
+}
