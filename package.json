@@ -1,28 +1,36 @@
 {
-  "name": "scoreboard",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint src/**/*.jsx"
+    "name": "scoreboard",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "lint": "eslint src/**/*.jsx",
+      "storybook": "start-storybook -p 6006",
+      "build:storybook": "build-storybook"
   },
   "dependencies": {
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.31.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.57.1",
-    "styletron-engine-atomic": "^1.5.0",
-    "styletron-react": "^6.1.0"
+    "sass": "^1.57.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-vite": "^0.2.6",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "babel-loader": "^8.3.0",
     "eslint": "^8.31.0",
+    "eslint-plugin-storybook": "^0.6.8",
     "vite": "^4.0.4"
   }
 }
